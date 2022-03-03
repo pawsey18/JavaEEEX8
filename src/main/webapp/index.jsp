@@ -14,8 +14,9 @@
     <body>
         <!--Set up the message to capture any errors-->
        
-        <form action="" method="post">
+        <form action="EmailServlet" method="post">
             <input type="hidden" name="action" value="add" />
+            <p>${message} </p>
             <table>
                 <tr>
                     <td><label>First Name:</label></td>
